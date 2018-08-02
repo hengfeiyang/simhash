@@ -1,9 +1,3 @@
-# simhash
-a Golang implementation of Simhash Algorithm
-
-# demo
-
-```
 package main
 
 import (
@@ -19,4 +13,3 @@ func main() {
 	fmt.Println("distance:", simhash.Distance(s1, s2))
 	fmt.Println("similars:", simhash.Similar(s1, s2))
 }
-```
